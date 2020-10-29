@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #menubar {
+    background-color: rgb(58, 36, 180);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    margin-right: 90px;
+    height: 70px;
+  }
+  
+  .col-sm {
+  padding-top: 100px
+  }
+  .table img{
+     float:right;     
+  }
+   
+ 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin-top: 20px;
+  margin: 0 -5px;
+ }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  height:300px;
+  box-shadow: 0 4px 8px 0 rgba(50, 42, 158, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  }
+h2 {
+  color:rgb(58, 36, 180)
+}
+
+footer {
+  bottom: 0;  
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(58, 36, 180);
+  color: white;
+}
